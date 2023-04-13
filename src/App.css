@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stile per il testo del Navbar.Brand */
+.navbar-brand {
+  color: #ffffff; /* Imposta il colore del testo a bianco */
+  font-weight: bold; /* Imposta il testo in grassetto */
+  font-size: 24px; /* Imposta la dimensione del testo a 24 pixel (o a tua scelta) */
+  transition: all 0.2s ease-in-out; /* Aggiungi una transizione per l'effetto di ingrandimento */
+}
+
+/* Stile per il testo del Navbar.Brand al passaggio del mouse */
+.navbar-brand:hover {
+  color: #ffffff; /* Imposta il colore del testo a bianco */
+  transform: scale(1.1); /* Ingrandisci il testo del 10% */
+}
+
+
+
+/* Stile per il testo dei link nella navbar */
+.navbar .nav-link {
+  color: #ffffff; /* Imposta il colore del testo a bianco */
+  transition: background-color 0.3s; /* Aggiunge una transizione per un effetto fluido */
+}
+
+/* Stile per lo sfondo dei link nella navbar quando ci si passa sopra con il mouse */
+.navbar .nav-link:hover {
+  background-color: #ff0000; /* Imposta il colore di sfondo a rosso */
+}
+
+.title-hover {
+  transition: font-size 0.2s ease-in-out; /* Aggiunge una transizione all'ingrandimento del testo */
+}
+
+.title-hover:hover {
+  font-size: 21px; /* Imposta la dimensione del testo a 28 pixel (o a tua scelta) al passaggio del mouse */
+}
